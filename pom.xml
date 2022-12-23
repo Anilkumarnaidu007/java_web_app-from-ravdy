@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.maven-project</groupId>
 	<artifactId>maven-project</artifactId>
-	<packaging>pom</packaging>
+	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>HelloWorld Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -17,7 +17,6 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
-			<packaging>war</packaging>
 		</dependency>
 
 		<!-- Spring dependencies -->
@@ -42,7 +41,6 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-test</artifactId>
 		    <version>4.0.5.RELEASE</version>
-		    <packaging>war</packaging>
 		</dependency>
 		<dependency>
         <groupId>org.springframework.boot</groupId>
